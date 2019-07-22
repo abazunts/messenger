@@ -1,0 +1,168 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    height: 450px;
+}
+
+.navigation {
+    text-align: center;
+    margin: 20px;
+}
+
+.title {
+    width: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: #24aa98;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.users>input {
+    font-size: 26px;
+    width: 400px;
+    align-self: center;
+}
+
+.usersBlock {
+    display: flex;
+    max-height: 350px;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.user {
+    display: flex;
+    margin: 10px;
+
+}
+
+.userActive>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+.userActive {
+    display: flex;
+    margin: 10px;
+    background: #65abd0;
+    border-bottom-left-radius: 25px ;
+    border-top-left-radius: 25px ;
+}
+
+
+.user:hover {
+    background: #65abd0;
+    cursor: pointer;
+    border-bottom-left-radius: 25px ;
+    border-top-left-radius: 25px ;
+}
+
+
+.fullName {
+    justify-self: left;
+    align-self: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.user>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.navigationPage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paginationActive {
+    cursor: pointer;
+    border: 1px solid;
+    background: #65abd0;
+    color: #fff;
+    padding: 5px;
+}
+
+.pagination {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    margin: 2px;
+}
+
+.pagination:hover{
+    cursor: pointer;
+    background: #65abd0;
+    color: #000;
+    padding: 5px;
+}
+
+.preloader {
+    align-self:  center;
+    justify-self: center;
+}
+
+.buttonCloseModal {
+    border: none;
+    font-size: 22px;
+    background: #24aa98;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dialogsTitle {
+    background: #24aa98;
+    color: #fff;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.buttonAddDialog {
+    border: none;
+    font-size: 18px;
+    background: #65abd0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    outline:0 none !important;
+}
+
+.wrapperDialog {
+    display: flex;
+    flex-direction: column;
+    background: #d7effb;
+}
+
+.nameUser {
+    align-self: center;
+    margin-left: 10px;
+}
